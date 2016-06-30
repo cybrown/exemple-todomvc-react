@@ -1,12 +1,9 @@
-# React, Redux and TypeScript sample project
+# React and TypeScript sample todomvc project
 
 ## Tools:
  * TypeScript @next to 2.0
- * React TODO
- * Redus TODO
+ * React
  * NPM scripts
- * Karma
- * Jasmine
  * Less
  * TSLint
 
@@ -21,8 +18,3 @@
  * ```npm run dist```: Run server in dist mode (port 8080).
  * ```npm run package```: Create a targz with dist files (/app.tar.gz).
  * ```npm run clean```: Remove all build artifacts.
-
-## Todo:
- * e2e tests
- * Clean webpack output in dev mode
- * Coverage
