@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>React and Redux sample app</title>
+    <link rel="stylesheet" href="node_modules/todomvc-common/base.css">
+    <link rel="stylesheet" href="node_modules/todomvc-app-css/index.css">
+</head>
+<body>
+    <section class="todoapp">
+        <header class="header">
+            <h1>todos</h1>
+            <input class="new-todo" placeholder="What needs to be done?" autofocus>
+        </header>
+        <section class="main">
+            <input class="toggle-all" id="toggle-all" type="checkbox">
+            <label for="toggle-all">Mark all as complete</label>
+            <ul class="todo-list">
+                <li>
+                    <div class="view">
+                        <input class="toggle" type="checkbox">
+                        <label>Première tâche</label>
+                        <button class="destroy"></button>
+                    </div>
+                    <input class="edit" value="Première tâche">
+                </li>
+                <li class="completed">
+                    <div class="view">
+                        <input class="toggle" type="checkbox" checked="">
+                        <label>Seconde tâche</label>
+                        <button class="destroy"></button>
+                    </div>
+                    <input class="edit" value="Seconde tâche">
+                </li>
+                <li class="editing">
+                    <div class="view">
+                        <input class="toggle" type="checkbox">
+                        <label>Encore du travail...</label>
+                        <button class="destroy"></button>
+                    </div>
+                    <input class="edit" value="Encore du travail...">
+                </li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <span class="todo-count">
+                <strong>2</strong> items left
+            </span>
+            <ul class="filters">
+                <li>
+                    <a class="selected" href="#/">All</a>
+                </li>
+                <li>
+                    <a href="#/active">Active</a>
+                </li>
+                <li>
+                    <a href="#/completed">Completed</a>
+                </li>
+            </ul>
+            <button class="clear-completed">Clear completed</button>
+        </footer>
+    </section>
+    <footer class="info">
+        <p>Double-click to edit a todo</p>
+        <p>Written by <a href="https://github.com/addyosmani">Addy Osmani</a></p>
+        <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+    </footer>
+</body>
+</html>
